@@ -1,5 +1,5 @@
 {
-    "name": "SimpleWebFramework/core",
+    "name": "simplewebframework/core",
     "description": "Rudimentary framework for easy building of simple web applications",
     "type": "library",
     "license": "MIT",
