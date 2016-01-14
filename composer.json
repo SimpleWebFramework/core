@@ -1,0 +1,22 @@
+{
+    "name": "SimpleWebFramework/core",
+    "description": "Rudimentary framework for easy building of simple web applications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Siudak",
+            "email": "piotr.siudak@gmail.com",
+            "homepage": "http://www.xz.pl/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleWebFramework\\Core\\": ""
+        }
+    }
+}
