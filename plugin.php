@@ -42,4 +42,3 @@ abstract class Plugin
  * c-hanging-comment-ender-p: nil
  * End:
  */
-    

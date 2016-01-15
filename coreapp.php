@@ -47,7 +47,6 @@ class CoreApp
         $this->setupPluginStore();
         $this->setupPages('pages');
         $this->loadPlugin('SimpleWebFramework\Core\BasicErrorHandling');
-//         $this->loadPlugin('SimpleWebFramework\Core\BasicErrorHandling');
     }
     // }}} __construct
     // {{{ go

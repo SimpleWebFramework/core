@@ -80,7 +80,6 @@ trait EventSystem
      */
     protected function dispatch($hook)
     {
-        var_dump($hook);
         $args = func_get_args();
         $hook = array_shift($args);
         

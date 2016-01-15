@@ -49,6 +49,9 @@ trait PageSystem
      * Sets up the location where pages are located
      *
      * @access protected
+     *
+     * @param string $path Path to directory holding page definitions
+     *
      * @return void
      */
     protected function setupPages($path)
@@ -59,6 +62,8 @@ trait PageSystem
     // {{{ pageExists
     /**
      * Checks whether a file of specified type exists in page directory
+     *
+     * @param string $type Type of file (validator|formprep|form|action|view)
      *
      * @access private
      * @return bool TRUE if the file of specified type exists; FALSE otherwise.
@@ -71,6 +76,8 @@ trait PageSystem
     // {{{ getPageFileLocation
     /**
      * Returns path to file of specified type in page directory
+     *
+     * @param string $type Type of file (validator|formprep|form|action|view)
      *
      * @access public
      * @return string file path

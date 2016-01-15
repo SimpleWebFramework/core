@@ -54,7 +54,7 @@ trait PluginSystem
      *
      * @param Plugin $plugin
      *            Plugin to add
-     *            
+     *
      * @access private
      * @return void
      */
@@ -68,8 +68,8 @@ trait PluginSystem
      * Removes Plugin from plugin store
      *
      * @param
-     *            Plugin Plugin to remove
-     *            
+     *            Plugin $plugin Plugin to remove
+     *
      * @access private
      * @return void
      */
@@ -83,8 +83,8 @@ trait PluginSystem
      * Loads plugin and adds it to the store
      *
      * @param
-     *            string name of the plugin to add
-     *            
+     *            string $className name of the plugin to add
+     *
      * @access public
      * @return void
      */
